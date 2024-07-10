@@ -1,0 +1,31 @@
+error_solver
+├── main.py               # Entry point
+├── capture               # Error Capture Module
+│   ├── __init__.py
+│   ├── capture_errors.py
+├── analysis              # Error Analysis Module
+│   ├── __init__.py
+│   ├── analyze_errors.py
+│   ├── handlers          # Handlers for different error types
+│   │   ├── __init__.py
+│   │   ├── syntax_error_handler.py
+│   │   ├── import_error_handler.py
+│   │   ├── ...
+├── suggestions           # Solution Suggestion Module
+│   ├── __init__.py
+│   ├── suggest_solutions.py
+├── vscode_interaction    # VS Code Interaction Module
+│   ├── __init__.py
+│   ├── interact_vscode.py
+│   ├── commands          # Encapsulated VS Code commands
+│   │   ├── __init__.py
+│   │   ├── open_file_command.py
+│   │   ├── navigate_command.py
+│   │   ├── apply_fix_command.py
+├── ui                    # User Interface Module
+│   ├── __init__.py
+│   ├── display_ui.py
+├── config                # Configuration Files
+│   ├── __init__.py
+│   ├── settings.py
+└── requirements.txt      # Dependencies
